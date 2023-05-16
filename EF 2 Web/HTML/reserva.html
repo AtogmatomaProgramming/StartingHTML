@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Reservas </title>
+		<meta name="Ejercicio Feedback 1" content="Módulo lenguaje de marcas">
+		<meta name="author" content="Alberto Candelario Brito">
+		<meta name="keywords" content="marcas, html, EF1">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../CSS/Estilo_web.css"/>
+	</head>
+	
+	<body>
+		<div id="container">
+		<h1 align="center">Pizzeria Flor de Lotus </h1>
+		</br>
+		<h3 align="center"> <a href="../Index.html">Presentación</a>&nbsp
+		<a href="menu.html">Menús</a> &nbsp <a href="">Reservas</a> </h3>
+		<hr>
+		<form method="post" action="../Index.html">
+		<label for="Texto1">Nombre</label>
+		<input name="texto1" type="text">
+		</br>
+		</br>
+		<label for="Texto2">Nº de tarjeta</label>
+		<input name="texto2" type="text">
+		</br>
+		</br>
+		<label for="Texto3">Fecha reserva</label>
+		&nbsp <select name="dia"><option>dia</option></select>
+		&nbsp <select name="mes"><option>mes</option></select>
+		&nbsp <select name="hora"><option>hora</option></select>
+		</br>
+		</br>
+		<label for="Texto4">Comentarios (alergias, preferencias, ...)</label>
+		<br><br><textarea rows="5" cols="50">Escribe aquí...</textarea>
+		</br>
+		</br>
+		<label for="Texto5">Zona:</label>&nbsp
+		Terraza <input name="zona1" type="radio" value="terraza"> &nbsp 
+		Interior <input name="zona1" type="radio" value="interior">		
+		</br>
+		</br>
+		<label for="Texto6">Parking</label>
+		<input name="aparcamiento" type="checkbox" value="Sí">
+		</br>
+		</br>
+		<input name="sub" type="submit" value="Enviar">
+		<input name="res" type="reset" value="Borrar datos">
+		</center>
+		</br>
+		</br>
+		</form>
+	    </div>
+		
+		<div id="foto">
+		<img class="img-9"src="../IMG/Foto_Reserva.jpg" height="400xp", width="700xp">
+	    </div>
+	    
+
+	</body>
+</html>
