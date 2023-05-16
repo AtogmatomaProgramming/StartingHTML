@@ -1,0 +1,42 @@
+<?xml version= "1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE StockMusica SYSTEM "Musica.dtd">
+<StockMusica xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="Musica.xsd">
+    <Producto formato="cd" idioma="en">
+        <Titulo>Violator</Titulo>
+        <Grupo>Depeche Mode </Grupo>
+        <Ano> 1990 </Ano>
+        <Singles> 
+            <Single> Personal Jesus </Single>
+            <Single> Mode Enjoy de Silence </Single>
+            <Single> Policy of truth </Single>
+            <Single> World in my eyes </Single>
+        </Singles>
+    </Producto>
+    <Producto formato="cd" idioma="en">
+        <Titulo>OK Computer</Titulo>
+        <Grupo>Radiohead </Grupo>
+        <Ano> 1997 </Ano>
+        <Singles> 
+            <Single> Paranoid Android </Single>
+            <Single> Karma Police </Single>
+            <Single> No surprises </Single>
+        </Singles> 
+    </Producto>
+    <Producto formato="vinilo" idioma="es">
+        <Titulo> Como la cabeza al sombrero </Titulo>
+        <Grupo> El último de la fila </Grupo>
+        <Ano> 1988 </Ano>
+    </Producto>
+    <Producto formato="mp3" idioma="es">
+        <Titulo> Hacia lo salvaje </Titulo>
+        <Grupo> Amaral </Grupo>
+        <Ano> 2011 </Ano>
+        <Singles> 
+            <Single> Hacia lo salvaje </Single>
+            <Single> Cuando suba la marea </Single>
+            <Single> Hoy es el principio del final </Single>
+        </Singles> 
+    </Producto>
+
+</StockMusica>

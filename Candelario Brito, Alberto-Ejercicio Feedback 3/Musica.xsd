@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Producto" maxOccurs="unbounded">
+        <xsd:complexType>
+            <xsd:attribute name="formato" type="xsd:string">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="cd">
+                        <xsd:enumeration value="cassete">
+                        <xsd:enumeration value="mp3">
+                        <xsd:enumeration value="vinilo">
+                    </xsd:restriction>
+                </xsd:simpleType>
+            <xsd:attribute name="idioma" type="xsd:string">
+        </xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Titulo" type="xsd:string">
+                <xsd:element name="Grupo" type="xsd:string">
+                <xsd:element name="Ano" type="xsd:integer">
+                    <xsd:simpleType>
+                        <xsd:restriction tiempo="xsd:integer">
+                            <xsd:minExclusive value="1900">
+                            <xsd:minExclusive value="2023">
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                <xsd:element name="Single" type="xsd:string">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Singles" type="xsd:string" maxOccurs="unbounded">
+                        </xsd:sequence>
+                    </xsd:complexType>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+<!ELEMENT StockMusica (Producto*)>
+<!ELEMENT Producto (Titulo, Grupo, Ano?, Single?)>
+<!ATTLIST Producto formato (cd | cassete | vinilo | mp3) CDATA #REQUIRED >
+<!ATTLIST Producto idioma CDATA #IMPLIED>
+<!ELEMENT Titulo (#PCDATA) >
+<!ELEMENT Grupo (#PCDATA) >
+<!ELEMENT Ano (#PCDATA) >
+<!ELEMENT Single (Singles?)>
+<!ELEMENT Singles (#EMPTY)>
